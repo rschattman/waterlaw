@@ -28,3 +28,5 @@ NE <- subset(US, region %in% c("maine",
 ggplot(data = NE) +
   geom_polygon(aes(x = long, y = lat, group = group), fill = "palegreen", color = "black") + 
   coord_fixed(1.3)
+
+# guidence: https://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html 
